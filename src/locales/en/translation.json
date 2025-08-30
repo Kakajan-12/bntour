@@ -391,8 +391,11 @@
     "date": "Date",
     "oldToNew": "From old to new",
     "newToOld": "From new to old"
+  },
+  "tourNapraw": {
+    "destination": "Destination",
+    "duration": "Duration",
+    "language": "Languages",
+    "type": "Tour type"
   }
-
-
-
 }

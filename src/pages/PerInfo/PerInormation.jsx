@@ -1,6 +1,6 @@
-import PerInfoFirst from './PerInfoFirst'
-import PerInfoSecend from './PerInfoSecend'
-import PerInfoThird from './PerInfoThird'
+import PerInfoFirst from './PerInfoHead'
+import PerInfoSecend from './PerInfoImg'
+import PerInfoThird from './PerInfoStar'
 
 const PerInormation = () => {
   return (

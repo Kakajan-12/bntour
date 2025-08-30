@@ -391,6 +391,13 @@
     "date": "Senesi boýunça",
     "oldToNew": "Köneden täzä",
     "newToOld": "Täzeden köne"
-  }
+  },
+  "tourNapraw": {
+    "destination": "Ýerler",
+    "duration": "Dowamlylygy",
+    "language": "Diller",
+    "type": "Syýahat görnüşi"
+}
+
 
 }

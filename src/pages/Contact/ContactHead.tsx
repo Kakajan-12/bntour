@@ -165,8 +165,9 @@ const ContactHead = () => {
           className="w-full border border-[#848484] bg-white rounded-lg px-1 py-10 focus:outline-none focus:border-[#336B7B] transition"
         />
 
-        {/* CAPTCHA */}
-        <div className="flex flex-col items-start gap-2">
+      <div className="flex items-center justify-center">
+          {/* CAPTCHA */}
+        <div className="flex flex-col  items-start  gap-2">
           <div dangerouslySetInnerHTML={{ __html: captchaImage }} />
           <button
             type="button"
@@ -203,6 +204,7 @@ const ContactHead = () => {
         {error && (
           <p className="text-red-600 text-center">{error}</p>
         )}
+      </div>
 
         {/* Кнопка */}
         <button

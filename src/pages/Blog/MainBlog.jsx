@@ -1,4 +1,4 @@
-import BlogThird from './BlogThird'
+import BlogThird from './Cards'
 import TourImg from '../Helper/TourImg'
 
 const Blog2 = () => {

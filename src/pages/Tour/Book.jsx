@@ -4,6 +4,11 @@ import { useNavigate, useParams } from "react-router";
 import { useGetTourQuery } from "../../services/Info";
 import i18n from "../../i18n";
 import { Box, CircularProgress } from "@mui/material";
+import { FaRegMap } from "react-icons/fa6";
+import { MdOutlineAccessTime } from "react-icons/md";
+import { HiTranslate } from "react-icons/hi";
+import { VscTypeHierarchySub } from "react-icons/vsc";
+
 
 const TourFirst = () => {
   const {data, error, isLoading} = useGetTourQuery()
@@ -132,32 +137,43 @@ const TourFirst = () => {
           </div>
         </div>
 
-        <motion.div
-          className="bg-[#FFFCFC] w-full max-w-md p-6 rounded-xl shadow-md"
-          initial={{ opacity: 0, scale: 0.95 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ delay: 0.5 }}
-        >
-   
-            <div className="flex flex-col gap-4 mb-4 last:mb-0">
-             <div className="flex gap-2">
-               <img src="/house.png" alt="img" className="w-6 h-6" />
-              <p className="xl:text-xl">Направления: {destination}</p>
-             </div>
-             <div className="flex gap-2">
-               <img src="/globe.png" alt="img" className="w-6 h-6" />
-              <p className="xl:text-xl">Продолжительность: {duration}</p>
-             </div>
-             <div className="flex gap-2">
-               <img src="/people.png" alt="img" className="w-6 h-6" />
-              <p className="xl:text-xl">Языки: {language}</p>
-             </div>
-             <div className="flex gap-2">
-               <img src="/globe.png" alt="img" className="w-6 h-6" />
-              <p className="xl:text-xl">Тип тура: {type}</p>
-             </div>
-            </div>
-        </motion.div>
+       <motion.div
+  className="bg-[#FFFCFC] w-full py-5 px-4 rounded-xl shadow-md"
+  initial={{ opacity: 0, scale: 0.95 }}
+  animate={{ opacity: 1, scale: 1 }}
+  transition={{ delay: 0.5 }}
+>
+  <div className="flex flex-col gap-4 mb-4">
+    <div className="flex items-start gap-3">
+      <FaRegMap className="text-gray-700 w-15 " />
+       <p className="xl:text-xl">
+          {t("tourNapraw.destination")}:<span className="italic"> {destination}</span>
+        </p>
+    </div>
+
+    <div className="flex items-start gap-3">
+      <MdOutlineAccessTime size={20}/>
+       <p className="xl:text-xl">
+          {t("tourNapraw.duration")}:<span className="italic">{duration}</span>
+        </p>
+    </div>
+
+    <div className="flex items-start gap-3">
+      <HiTranslate size={20}/>
+        <p className="xl:text-xl">
+          {t("tourNapraw.language")}: <span className="italic">{language}</span>
+        </p>
+    </div>
+
+    <div className="flex items-start gap-3">
+      <VscTypeHierarchySub size={20} />
+         <p className="xl:text-xl">
+          {t("tourNapraw.type")}: <span className="italic">{type}</span>
+        </p>
+    </div>
+  </div>
+</motion.div>
+
 
         <motion.button
           className="bg-[#A40000] text-white hidden lg:block text-center xl:text-2xl font-semibold py-4 px-8 rounded-xl hover:bg-[#525960] transition duration-200"

@@ -1,7 +1,7 @@
 import Home from './Home'
-import MainFifth from './MainFifth'
-import MainFourth from './MainFourth'
-import MainThird from './MainThird'
+import MainFifth from './TourBlog'
+import MainFourth from './Why'
+import MainThird from './Gallery'
 import Welcome from './Welcome'
 
 const Main = () => {

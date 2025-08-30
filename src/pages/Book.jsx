@@ -34,9 +34,8 @@ const Book = () => {
   const loadCaptcha = async () => {
     try {
       const res = await fetch(`${import.meta.env.VITE_IMG_URL}captcha`, {
-        method: "GET",
-        credentials: "include",
-        headers: { Accept: "image/svg+xml,text/html,*/*" },
+         method: "GET",
+                credentials: "include",
       });
       const svg = await res.text();
       setCaptchaImage(svg);
@@ -213,7 +212,7 @@ const Book = () => {
                   placeholder={t("travelers")}
                   value={formData.travelers}
                   onChange={handleChange}
-                  className="border border-[#646464] flex-2 rounded-md px-4 py-2 w-full"
+                  className="border border-[#646464] no-spinner flex-2 rounded-md px-4 py-2 w-full"
                 />
               </div>
               <textarea
@@ -221,7 +220,7 @@ const Book = () => {
                 placeholder={t("comments")}
                 value={formData.message}
                 onChange={handleChange}
-                className="w-full border border-[#646464] rounded-md px-2 py-20"
+                 className="w-full h-64 border border-[#646464] rounded-md px-2 py-2 text-start align-top"
               />
             </div>
 

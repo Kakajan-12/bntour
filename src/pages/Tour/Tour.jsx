@@ -1,7 +1,7 @@
-import TourFirst from './TourFirst'
-import TourFourth from './TourFourth'
-import TourSecend from './TourSecend'
-import TourThird from './TourThird'
+import TourFirst from './Book'
+import TourFourth from './Gallery'
+import TourSecend from './Accordian'
+import TourThird from './Include'
 const Tour = () => {
   return (
     <div>
