@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Outfit:wght@100..900&family=Prata&family=Train+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Prata&family=Train+One&display=swap');
+@import "tailwindcss";
+@import 'tailwind-scrollbar-hide/v4';
+
+:root {
+  --primary-clr: #ffffff;
+  --gap: 25px;
+}
+.font{
+  font-family: 'Comfortaa', sans-serif;
+}
+.h2-font{
+  font-family: "Montserrat",sans-serif;
+}
+.custom-text{
+  font-size: 25px;
+}
+a.active{
+  color: #B46516;
+}
+@keyframes pulseGlow {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 0 rgba(255, 255, 255, 0);
+  }
+  50% {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.7);
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 rgba(255, 255, 255, 0);
+  }
+}
+
+.pulse-glow:hover {
+  animation: pulseGlow 1s infinite;
+}
+@media(max-width:640px){
+  a.active{
+  background-color: #A40000;
+  color: white;
+  font-weight: 700;
+  }
+}
+.custom-border{
+  border-width: 3px;
+}
+.text{
+  color:#336B7B
+}
+
+.my-pagination li {
+  @apply inline-flex items-center justify-center 
+    w-9 h-9 mx-1 rounded-lg border border-gray-300 
+    bg-white text-gray-900 text-sm font-semibold 
+    transition hover:bg-gray-100;
+}
+
+.my-pagination li.rc-pagination-item-active {
+  @apply bg-gray-300 text-white border-gray-300;
+}
+
+.my-pagination li.rc-pagination-disabled {
+  @apply opacity-50 cursor-not-allowed;
+}
+
+.my-pagination li.rc-pagination-prev,
+.my-pagination li.rc-pagination-next {
+  @apply bg-white text-gray-300 border border-gray-300 hover:bg-gray-100;
+}
+
+.text-overflow {
+  display: -webkit-box;
+  -webkit-line-clamp: 4; /* количество строк */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.range-red {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 8px; /* толщина линии */
+  background:  #860202 ;
+  border-radius: 4px;
+  outline: none;
+  transition: background 0.1s ease-in;
+}
+
+/* Ползунок Chrome/Safari/Edge */
+.range-red::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  background: #a40000;
+  border-radius: 50%;
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+/* Ползунок Firefox */
+.range-red::-moz-range-thumb {
+  width: 18px;
+  height: 18px;
+  background: #a40000;
+  border-radius: 50%;
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+.button-82-pushable {
+  position: relative;
+  border: none;
+  background: transparent;
+  padding: 0;
+  cursor: pointer;
+  outline-offset: 4px;
+  transition: filter 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-82-shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  background: hsl(0deg 0% 0% / 0.25);
+  will-change: transform;
+  transform: translateY(2px);
+  transition: transform 600ms cubic-bezier(.3, .7, .4, 1);
+}
+
+.button-82-edge {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  background: linear-gradient(
+    to left,
+    hsl(340deg 100% 16%) 0%,
+    hsl(340deg 100% 32%) 8%,
+    hsl(340deg 100% 32%) 92%,
+    hsl(340deg 100% 16%) 100%
+  );
+}
+
+.button-82-front {
+  display: block;
+  position: relative;
+  padding: 12px 27px;
+  border-radius: 12px;
+  font-size: 1.1rem;
+  color: white;
+  background: hsl(345deg 100% 47%);
+  will-change: transform;
+  transform: translateY(-4px);
+  transition: transform 600ms cubic-bezier(.3, .7, .4, 1);
+}
+
+@media (min-width: 768px) {
+  .button-82-front {
+    font-size: 1.25rem;
+    padding: 12px 42px;
+  }
+}
+
+.button-82-pushable:hover {
+  filter: brightness(110%);
+  -webkit-filter: brightness(110%);
+}
+
+.button-82-pushable:hover .button-82-front {
+  transform: translateY(-6px);
+  transition: transform 250ms cubic-bezier(.3, .7, .4, 1.5);
+}
+
+.button-82-pushable:active .button-82-front {
+  transform: translateY(-2px);
+  transition: transform 34ms;
+}
+
+.button-82-pushable:hover .button-82-shadow {
+  transform: translateY(4px);
+  transition: transform 250ms cubic-bezier(.3, .7, .4, 1.5);
+}
+
+.button-82-pushable:active .button-82-shadow {
+  transform: translateY(1px);
+  transition: transform 34ms;
+}
+
+.button-82-pushable:focus:not(:focus-visible) {
+  outline: none;
+}

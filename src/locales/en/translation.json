@@ -1,0 +1,398 @@
+{
+  "contact": "Contact Us",
+  "main": "Main",
+  "tour": "Tour",
+  "about": "About Us",
+  "blog": "Blog",
+  "tagline": "Nature: Where History\nComes Alive",
+  "explore": "Explore ancient fortresses, bustling bazaars, and a\nunique nomadic heritage.",
+  "welcome": "Welcome to \nNature Travel",
+  "aboutText": "At Nature travel, we believe in making your travel dreams \n come true. Whether you’re planning a relaxing beach escape, \n an adventurous trek, or an unforgettable city break, we’re here \n to make it happen. With personalized itineraries, exclusive \n deals, and expert advice, we ensure that every detail of your \ntrip is taken care of.",
+  "aboutUs": "About Us",
+  "topDestinations": "Top Destinations",
+  "exploreAll": "Explore all destinations",
+   "info":"Information",
+   "slide1": {
+    "title": "Turkmenistan: Where History Comes Alive",
+    "desc": "Explore ancient fortresses, bustling bazaars, and a unique nomadic heritage."
+  },
+  "slide2": {
+    "title": "Explore the Nature",
+    "desc": "From green fields to endless deserts."
+  },
+  "tour1": {
+    "name": "7-Day Discovery Tour \n Turkmenistan",
+    "description": "A small group tour",
+    "explore": "Explore Tour",
+    "day": "7 days"
+  },
+  "horseTour": {
+    "name": "Traditional Horse Racing Tour",
+    "description": "Explore the deep connection between Turkmen people and their legendary Akhal-Teke horses."
+  },
+   "footer": {
+    "description": "Discover the amazing world of Turkmenistan with us! We organize comfortable and safe tours to the main attractions of the country — from the ancient cities of Merv and Nisa to the majestic sands of the Karakum Desert.",
+    "contacts": "Contacts",
+    "hours": "09:00 AM - 07:00 PM",
+    "quickAccess": "Quick Access",
+    "blog": "Blog",
+    "tours": "Tours",
+    "about": "About Us"
+  },
+   "title": "Tour Itinerary",
+  "day1": {
+    "title": "Day 1 - Arrival in Ashgabat",
+    "content": "Transfer from airport, check-in. Evening panoramic tour of Ashgabat."
+  },
+  "day2": {
+    "title": "Day 2 - Ashgabat: Ancient and Modern",
+    "content": "Excursion to museums and ancient monuments of the city."
+  },
+  "day3": {
+    "title": "Day 3 - Into the Desert",
+    "content": "Trip to the Karakum Desert. Overnight near Darvaza crater."
+  },
+  "day4": {
+    "title": "Day 4 - Merv: Ancient Metropolis",
+    "content": "Journey to Merv, one of the oldest cities in Central Asia."
+  },
+  "day5": {
+    "title": "Day 5 - Local Culture and Return",
+    "content": "Visit to markets and craft workshops. Return to Ashgabat."
+  },
+  "day6": {
+    "title": "Day 6 - Free Day in Ashgabat",
+    "content": "Free time or optional excursions."
+  },
+  "day7": {
+    "title": "Day 7 - Departure",
+    "content": "Transfer to the airport and departure."
+  },
+   "sevenDaysTour": {
+    "title": "7-Day Introductory Tour of Turkmenistan",
+    "price": "per person",
+    "description": "This 7-day guided tour will serve as your gateway to one of Central Asia’s most mysterious and unexplored countries – Turkmenistan. Travel through time visiting UNESCO World Heritage sites like Merv and Nisa, marvel at the surreal white architecture of Ashgabat, and witness the otherworldly glow of the Darvaza gas crater in the heart of the Karakum Desert. With rich history and pristine nature, this journey offers a truly authentic cultural experience far from mass tourism.",
+    "button": "Book the Tour",
+    "travelers": "6–12 travelers",
+    "hotels": "3–4★ hotels",
+    "guide": "Daily Breakfast",
+    "transport": "English-speaking guide"
+  },
+  "tourIncludes": {
+    "whatsIncluded": "What's included?",
+    "includedTitle": "Included",
+    "excludedTitle": "Doesn't Included",
+    "includes": {
+      "transfers": "All transfers",
+      "tourProgram": "Sightseeing tour program with an English-speaking guide",
+      "entranceFees": "Entrance fees to sights as per itinerary",
+      "hotels": "Accommodation in 3–4★ hotels",
+      "meals": "Meals (breakfast, lunch, dinner)",
+      "support": "Support 24/7 during the tour"
+    },
+    "excludes": {
+      "flights": "International flights",
+      "visa": "Visa fees (if applicable)",
+      "personal": "Personal expenses",
+      "tips": "Tips for guides/drivers",
+      "insurance": "Insurance",
+      "optional": "Optional excursions"
+    }
+  },
+   "title1": "More Than a Destination — A Deeper Journey",
+  "title2": "Discover the Soul of Turkmenistan",
+  "title3": "Crafted Journeys. Timeless Memories",
+  "paragraph": "BN Tour is a leading travel agency based in Turkmenistan, specializing in providing unique and unforgettable travel experiences for both domestic and international tourists. With a team of experienced professionals and local experts, BN Tour offers a wide range of services including tour packages, accommodation bookings, transportation arrangements, and personalized itineraries tailored to individual preferences and interests.",
+   "servicesTitle": "Our Services",
+  "servicesText": "We are dedicated to providing you with unforgettable travel experiences that cater to your unique interests and preferences. Contact us today to start planning your dream getaway.",
+  "servicesList": [
+    {
+      "title": "Wide selection of tours",
+      "description": "Assistance in booking flights, transportation and tours for an unforgettable trip"
+    },
+    {
+      "title": "Wide selection of tours",
+      "description": "Assistance in booking flights, transportation and tours for an unforgettable trip"
+    },
+    {
+      "title": "Wide selection of tours",
+      "description": "Assistance in booking flights, transportation and tours for an unforgettable trip"
+    },
+    {
+      "title": "Wide selection of tours",
+      "description": "Assistance in booking flights, transportation and tours for an unforgettable trip"
+    },
+    {
+      "title": "Wide selection of tours",
+      "description": "Assistance in booking flights, transportation and tours for an unforgettable trip"
+    },
+    {
+      "title": "Wide selection of tours",
+      "description": "Assistance in booking flights, transportation and tours for an unforgettable trip"
+    }
+  ],
+   "aboutThird": {
+    "title": "Why Choose Us?",
+    "description": "Planning a trip to Turkmenistan can be challenging — we make it easy, authentic, and unforgettable. With expert local guides, curated routes, and full support from start to finish, you're in good hands.",
+    "local": {
+      "title": "Local Expertise",
+      "text": "We’re based in Central Asia and work with experienced local guides who know Turkmenistan inside and out."
+    },
+    "hassle": {
+      "title": "Hassle-Free Travel",
+      "text": "From visa support to airport transfers and hand-picked accommodations — we take care of the details so you can focus on the experience."
+    },
+    "unique": {
+      "title": "Unique Itineraries",
+      "text": "Our tours go beyond the usual — combining must-see highlights with hidden gems and authentic cultural encounters."
+    },
+    "small": {
+      "title": "Small Group Experience",
+      "text": "Travel in comfort with a group of like-minded adventurers — no crowds, no rush, just meaningful moments."
+    }
+  },
+    "howToWork": "How To Work?",
+  "enjoyJourney": "Enjoy The Journey",
+   "tours": {
+    "MountainEscape": "Горное Убежище",
+    "DesertAdventure": "Пустынное Приключение",
+    "ForestRetreat": "Отдых в Лесу",
+    "OceanBreeze": "Океанский Бриз",
+    "CityExplorer": "Городской Исследователь",
+    "IslandHopping": "Прыжки по Островам",
+    "SnowyPeaks": "Снежные Вершины",
+    "CulturalTour": "Культурный Тур",
+    "JungleSafari": "Сафари в Джунглях",
+    "LakeParadise1": "Озеро Рай",
+    "LakeParadise2": "Озеро Спокойствие",
+    "LakeParadise3": "Озеро Тишина",
+    "LakeParadise4": "Озеро Отражение",
+    "LakeParadise5": "Озеро Шепот",
+    "LakeParadise6": "Озеро Гармония",
+    "LakeParadise7": "Озеро Мираж",
+    "LakeParadise8": "Озеро Спокойствие 2",
+    "LakeParadise9": "Озеро Блаженство",
+    "LakeParadise10": "Озеро Пристань"
+  },
+   "contact1": {
+    "title": "Contact Us",
+    "subtitle": "Contact us any time. We will get back to you as soon as we can!",
+    "name": "Your Name",
+    "email": "Your Email",
+    "message": "Your Message",
+    "send": "Send",
+    "info": "Info",
+    "phone1": "+993-61-12-34-56",
+    "phone2": "+993-65-78-90-12",
+    "email1": "balkantours@gmail.com",
+    "email2": "contact@balkantours.com"
+  },
+  "how_to_work": "How to work?",
+  "choose_tour": "Choose Your Tour",
+  "support": "Support",
+  "support_text": "We’ll assist with the visa process and send you a detailed travel guide with everything you need to know.",
+  "book_online": "Book Online or Contact",
+  "enjoy": "Enjoy the Journey",
+  "testimonials": {
+    "title": "“An unforgettable experience! The itinerary was perfectly balanced between history, culture, and adventure. Sleeping near the Darvaza crater was a highlight! The guides were super knowledgeable and made us feel safe and welcome at every step.”",
+    "name": "— Jack Joe"
+  },
+  "book": {
+    "heading": "Ready To Book Your Tour?",
+    "contact": "Contact Details",
+    "tour": "Tour Details",
+    "firstname": "First Name",
+    "lastname": "Last Name",
+    "citizenship": "Citizenship",
+    "nationality": "Nationality",
+    "email": "Email",
+    "phone": "Phone (+code)",
+    "date": "Date",
+    "travelers": "Number of Travelers",
+    "tourname": "Tour",
+    "comments": "Comments and additional information",
+    "button": "Send Request"
+  },
+   "exploreBlog": "Explore Blog",
+   "recomendation":"Testimonials",
+  "introduction": "Despite its low profile on the global tourism map, Turkmenistan is one of the most fascinating destinations in Central Asia. With a rich historical legacy, surreal modern architecture, and stunning desert landscapes, it offers a unique and authentic travel experience — especially for curious and culturally-driven travelers. Here’s why Turkmenistan is well worth the journey.",
+
+  "darvaza": {
+    "heading": "The Darvaza Gas Crater – A Fiery Phenomenon in the Desert",
+    "description": "Known as the “Door to Hell,” the Darvaza gas crater has been burning continuously since 1971, when Soviet geologists set it alight to prevent the spread of methane gas. Located in the vast Karakum Desert, it’s over 60 meters wide and glows spectacularly at night. Many tours offer overnight camping nearby, giving you the rare chance to witness this dramatic natural fire pit under the stars."
+  },
+
+  "ashgabat": {
+    "heading": "Ashgabat – The Marble-Clad Capital",
+    "description": "Ashgabat, the capital of Turkmenistan, holds the Guinness World Record for the most white marble buildings of any city in the world. Rebuilt after a massive earthquake in 1948, modern Ashgabat is a surreal showcase of gold-domed monuments, empty six-lane avenues, and high-tech fountains. It’s a fascinating example of post-Soviet urban planning and national identity, and a must-see for lovers of architecture and modern history."
+  },
+
+  "silk_road": {
+    "heading": "Ancient Civilizations and Silk Road Heritage",
+    "description": "Turkmenistan is home to several important archaeological sites from the Silk Road era and beyond.",
+    "sites": {
+      "merv": "Merv, a UNESCO World Heritage Site, was once one of the largest cities in the world during the 12th century.",
+      "nisa": "Nisa, the ancient capital of the Parthian Empire, offers insight into pre-Islamic Central Asia.",
+      "konye_urgench": "Konye-Urgench in the north features impressive mausoleums and minarets from the Khorezm era."
+    },
+    "closing": "These sites reveal layers of cultural influence — from Zoroastrianism and Buddhism to Islam — and offer a deep historical context for the region."
+  },
+  "book5": {
+    "heading": "Book Your Journey",
+    "button": "Book Now"
+  },
+  "contact5": "Contact Information",
+  "firstname": "First Name (e.g., Eustace)",
+  "lastname": "Last Name (e.g., Featherstone)",
+  "citizenship": "Citizenship",
+  "nationality": "Nationality",
+  "email": "Email Address",
+  "phone": "Phone Number",
+  "tour5": "Tour Details",
+  "travelers": "Number of Travelers",
+  "tourname": "Tour Name (e.g., Whispering Dunes Expedition)",
+  "comments": "Additional Comments",
+  "title5": {
+    "mr": "Mr",
+    "miss": "Miss"
+},
+  "sortBy": "Sort By:",
+  "popularity": "Popularity",
+  "veryLow": "Very Low",
+  "veryHigh": "Very High",
+  "searchPlaceholder": "Search by name",
+  "priceText": "Price:",
+  "welcome1": {
+    "subtitle": "Discover the most famous places in Central Asia.",
+    "title": "Popular Routes",
+    "description": "From ancient cities to breathtaking landscapes — explore unforgettable places full of history, culture, and beauty.",
+    "button": "Explore All Destinations"
+},
+  "gallery": {
+    "title": "GALLERY",
+    "description": "Take a look at the unforgettable moments from our tours. Stunning landscapes, rich culture, and happy travelers — see what awaits you in your next adventure."
+  },
+  "why": {
+    "title": "Why us?",
+    "description": "We don't just organize tours — we create experiences. Our team knows every corner of Turkmenistan and Central Asia and carefully designs routes with attention to detail.",
+    "teamTitle": "Experienced Team",
+    "teamDescription": "Since 1998 in the Central Asian tourism industry.",
+    "routeTitle": "Personalized Routes",
+    "routeDescription": "We tailor tours to your interests and pace."
+},
+  "blog1": {
+    "title": "TRAVEL BLOG",
+    "subtitle": "Take a look at the unforgettable moments from our tours. Stunning landscapes, rich culture, and happy travelers – see what awaits you in your next adventure.",
+    "learnMore": "LEARN MORE",
+    "more": "MORE",
+    "cardMain": {
+      "title": "Top 5 Places in Ashgabat",
+      "text": "What should you see in the capital of Turkmenistan? Architecture, museums, parks, and hidden gems – check out our guide to Ashgabat.",
+      "alt": "Main image"
+    },
+    "card": {
+      "title": "Top 5 Places in Ashgabat",
+      "text": "What should you see in the capital of Turkmenistan? Architecture, museums, parks, and hidden gems – check out our guide to Ashgabat.",
+      "alt": "Image"
+    }
+  },
+  "tourTitle": "Tours to the Hidden Treasures of Turkmenistan",
+  "tourDescription": "Step off the beaten path and dive into the heart of Central Asia. Each tour is crafted to give you authentic and unforgettable experiences.",
+  "blogTitle": "Travel Stories and Insider Tips",
+  "blogDescription": "Discover fascinating stories, guides, and practical advice to inspire your next trip. From lesser-known places in Turkmenistan to cultural insights and tips — our blog brings the world closer, one story at a time.",
+  "insiderStories": {
+    "title": "Travel Stories and Insider Tips",
+    "description": "Discover captivating stories, guides, and useful tips that will inspire your next adventure. From hidden gems in Turkmenistan to cultural insights and practical advice — our blog brings the world closer to you, one story at a time."
+},
+  "about1": {
+    "title": "Discover Turkmenistan with us",
+    "description": "We offer not just tours but unique experiences. Our team consists of local experts who will show you the true essence of the country: from ancient cities and picturesque deserts to traditional lifestyles. We take care of every detail to make your journey comfortable, rich, and truly memorable."
+  },
+  "services": {
+    "title": "Our Services",
+    "description": "We offer a comprehensive approach to organizing travel in Turkmenistan. From planning to return — we support you every step of the way, ensuring comfort, safety, and lasting impressions.",
+    "cards": [
+      {
+        "icon": "/tr1.svg",
+        "title": "Tour Organization",
+        "text": "Individual and group trips to the most exciting destinations."
+      },
+      {
+        "icon": "/tr2.svg",
+        "title": "Accommodation",
+        "text": "Hotels, guesthouses, and yurts — comfort for any taste and budget."
+      },
+      {
+        "icon": "/tr3.svg",
+        "title": "Transport",
+        "text": "Convenient transportation with experienced drivers across the country."
+      },
+      {
+        "icon": "/tr4.svg",
+        "title": "Guiding",
+        "text": "Professional guides who share more than just facts."
+      },
+      {
+        "icon": "/tr5.svg",
+        "title": "Visa Assistance",
+        "text": "Consultations and support for entry procedures."
+      },
+      {
+        "icon": "/tr6.svg",
+        "title": "Translater",
+        "text": "Accurate, fast, and reliable translation by native speakers."
+      }
+    ]
+  },
+  "aboutThird1": {
+    "title": "Everything for the perfect journey",
+    "description": "We offer a full range of travel services to make your experience in Turkmenistan easy, exciting, and worry-free. Whether you're planning an active tour or a relaxed vacation, we’ll take care of everything — from itinerary to accommodation and assistance."
+  },
+  
+  "whyChooseUsTitle": "Why Choose Us?",
+  "whyChooseUsDescription": "Planning a trip to Turkmenistan can be challenging — we make it easy, authentic, and unforgettable.",
+  "features": [
+    {
+      "title": "Local Experts",
+      "description": "We are based in Central Asia and work with experienced local guides who know Turkmenistan inside and out.",
+      "image": "/talent.png"
+    },
+    {
+      "title": "Worry-Free Travel",
+      "description": "From visa support and transfers to carefully selected accommodations — we handle the details so you can enjoy the journey.",
+      "image": "/flight.png"
+    },
+    {
+      "title": "Unique Routes",
+      "description": "Our tours go beyond the usual — we combine iconic sights with hidden gems and real cultural experiences.",
+      "image": "/place.png"
+    },
+    {
+      "title": "Small Group Experience",
+      "description": "Travel in comfort with like-minded people — no crowds, no rush, just genuine moments and vivid memories.",
+      "image": "/head.png"
+    }
+  ],
+  "tourFireTitle": "5 reasons why Turkmenistan should be your next travel destination",
+  "tourFireDate": "04/08/2025",
+  "prepareTitle": "Get Ready for Your Trip",
+  "prepareDesc": "Discover everything you need to know before traveling to Turkmenistan — how to get a visa, where to stay, and what to keep in mind. We’ve gathered the key information to help you feel confident every step of the way.",
+  "visaBtn": "How to get a visa",
+  "hotelsBtn": "Hotels",
+    "visaGuide": "How to Get a Visa to Turkmenistan: Step-by-Step Guide",
+        "description":"To visit Turkmenistan, most foreign citizens need a tourist visa. We help you obtain the Letter of Invitation (LOI), which is required to apply. Once you receive the invitation, you can submit your documents at the nearest consulate or get a visa upon arrival at Ashgabat Airport. We guide you through every step to make the process quick and hassle-free.",
+  "trustedHotels": {
+    "heading": "Comfort, coziness, and reliability — hotels we trust"
+},
+  "readyAdventureTitle": "Ready for an adventure? We’re already waiting for you!",
+  "readyAdventureText": "Contact our team to start your journey through the unexplored corners of Turkmenistan. Have a question, want to discuss tour details or just get inspired? We’re here — write to us, call us, or come visit!",
+  "surname":"Surname",
+    "sort": {
+    "date": "Date",
+    "oldToNew": "From old to new",
+    "newToOld": "From new to old"
+  }
+
+
+
+}

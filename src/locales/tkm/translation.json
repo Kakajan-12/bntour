@@ -1,0 +1,396 @@
+{
+  "contact": "Habarlaş",
+  "main": "Baş Sahypa",
+  "tour": "Syýahat",
+  "about": "Biz barada",
+  "blog": "Blog",
+  "tagline": "Tebigat: Taryh janlanýan ýerdir",
+  "explore": "Gadymy galalary, gaýtalanýan bazarlary we özboluşly göçme mirasy öwreniň.",
+  "welcome": "Tebigat Syýahata \n hoş geldiňiz",
+  "aboutText": "Tebigat Syýahatda biziň ynanjymyz, siziň syýahat arzuwlaryňyzy \n durmuşa geçirmekdir. Dynç alyş üçin ýüzbe-ýüz ýumşak deňiz kenaryna, \n täsin bir ýörüşe ýa-da ýatdan çykmajak şäher gezmesine taýýarlaýan bolsaňyz, \n biz munuň amala aşyrylmagyna ýardam edýäris. Şahsyleşdirilen meýilnamalar, \n özboluşly teklipler we hünärmen maslahatlary bilen syýahatyňyzyň \n her bir jikme-jigini üpjün edýäris.",
+  "aboutUs": "Biz Barada",
+  "topDestinations": "Iň meşhur ugurlar",
+  "exploreAll": "Ähli ugurlary gör",
+   "info":"Informasiya",
+  "Movie":"Mugt Kino",
+  "slide1": {
+    "title": "Türkmenistan: Taryh janlanýan ýer",
+    "desc": "Köne galalary, gyzgalaňly bazarlary we özboluşly çarwa mirasyny öwreniň."
+  },
+  "slide2": {
+    "title": "Tebigaty öwreniň",
+    "desc": "Ýaşyl meýdanlardan başlap çäksiz çöle çenli."
+  },
+   "tour1": {
+    "name": "7 günlük açyş syýahaty \n Türkmenistan",
+    "description": "Kiçi topar üçin syýahat",
+    "explore": "Syýahaty aç",
+    "day": "7 gün"
+  },
+    "horseTour": {
+    "name": "Däp bolan at çapyşyk syýahaty",
+    "description": "Türkmen halkynyň meşhur ahalteke atlary bilen bolan çuňňur baglanyşygyny gözden geçiriň."
+  },
+   "footer": {
+    "description": "Biziň bilen Türkmenistanyň ajaýyp dünýäsini açyň! Biz Merv we Nusa ýaly gadymy şäherlerden başlap Garagum çölüniň beýik guýularyna çenli esasy görmeli ýerler boýunça amatly we howpsuz syýahatlary gurnaýarys.",
+    "contacts": "Habarlaşmak üçin",
+    "hours": "09:00 - 19:00",
+    "quickAccess": "Tiz geçiş",
+    "blog": "Blog",
+    "tours": "Syýahatlar",
+    "about": "Biz barada"
+  },
+  "title": "Syýahat Ugury",
+  "day1": {
+    "title": "1-nji gün – Aşgabada gelip ýetmek",
+    "content": "Howa menzilinden geçiriş, myhmanhana ýerleşmek. Agşamlyk Aşgabadyň panoramasy bilen gezelenç."
+  },
+  "day2": {
+    "title": "2-nji gün – Aşgabat: Gadym we häzirki zaman",
+    "content": "Şäheriň muzeýlerine we gadymy ýadygärliklerine gezelenç."
+  },
+  "day3": {
+    "title": "3-nji gün – Çöle tarap",
+    "content": "Garagum çöline sapar. Darwaza krateriniň ýanynda gijelemek."
+  },
+  "day4": {
+    "title": "4-nji gün – Merv: Gadymy megapolisi",
+    "content": "Merwe syýahat, Merkezi Aziýanyň iň gadymy şäherleriniň biri."
+  },
+  "day5": {
+    "title": "5-nji gün – Halk medeniýeti we dolanmak",
+    "content": "Bazarlara we ussahanalara baryp görmek. Aşgabada dolanmak."
+  },
+  "day6": {
+    "title": "6-njy gün – Aşgabatda boş gün",
+    "content": "Boş wagt ýa-da goşmaça gezelençler."
+  },
+  "day7": {
+    "title": "7-nji gün – Ugradyş",
+    "content": "Howa menziline geçiriş we uçuş."
+  },
+   "sevenDaysTour": {
+    "title": "Türkmenistana 7 günlük tanyşlyk syýahaty",
+    "price": "adam başyna",
+    "description": "Bu 7 günlük ýolbelet bilen syýahat, Merkezi Aziýanyň iň syrly we az öwrenilen ýurtlarynyň biri bolan Türkmenistan bilen tanyşmagyňyza gapy açar. Merv we Nusa ýaly ÝUNESKO-nyň Bütindünýä mirasynyň desgalaryna baryp, Aşgabadyň surreal ak arhitekturasyna haýran galyp, Garagum çölüniň ýüregindäki Darwaza gaz krateriniň öte dünýäniň şöhle saçmagyna şaýat boluň. Bu syýahat, adaty syýahatçylykdan tapawutly, hakyky medeni tejribe hödürleýär.",
+    "button": "Syýahat sargyt etmek",
+    "travelers": "6–12 syýahatçy",
+    "hotels": "3–4★ myhmanhanalar",
+    "guide": "Hergun Irdenlik",
+    "transport": "Kop dilleri Bilyan Gid"
+  },
+  "tourIncludes": {
+    "whatsIncluded": "Näme goşulýar?",
+    "includedTitle": "Goşulan zatlar",
+    "excludedTitle": "Goşulmaýan zatlar",
+    "includes": {
+      "transfers": "Ähli ulag geçişleri",
+      "tourProgram": "Iňlis dilinde gürleýän ýolbelet bilen gezelenç programmasy",
+      "entranceFees": "Tertipnamadaky görmeli ýerlere giriş tölegleri",
+      "hotels": "3–4★ myhmanhanalarda ýaşamak",
+      "meals": "Iýmitlenme (ertirlik, günortanlyk, agşamlyk)",
+      "support": "Syýahat wagty 24/7 goldaw"
+    },
+    "excludes": {
+      "flights": "Halkara uçar biletleri",
+      "visa": "Wiza tölegi (eger gerek bolsa)",
+      "personal": "Şahsy çykdajylar",
+      "tips": "Gid we sürüjilere sylag pullary",
+      "insurance": "Ätiýaçlandyryş",
+      "optional": "Islege görä gezelençler"
+    }
+},
+"title1": "Bara ýöne bir ugur däl — Has çuňňur syýahat",
+  "title2": "Türkmenistanyň ruhuny aç",
+  "title3": "Döredilen syýahatlar. Öçmeýän ýatlamalar",
+  "paragraph": "BN Tour — Türkmenistanda ýerleşýän öňdebaryjy syýahatçylyk agentligi bolup, içerki we halkara syýahatçylar üçin özboluşly we ýatdan çykmajak syýahatlary hödürleýär. Tejribeli hünärmenlerden we ýerli tejribelilerden ybarat topar bilen BN Tour turlar, ýaşaýyş, transport we islege görä düzülýän ugurlar ýaly hyzmatlary hödürleýär.",
+  "servicesTitle": "Hyzmatlarymyz",
+  "servicesText": "Biziň maksadymyz — siziň islegleriňize laýyk gelýän ýatdan çykmajak syýahatlary üpjün etmekdir. Arzuw edýän gezelenjiňizi meýilleşdirmek üçin biziň bilen häzir habarlaşyň.",
+  "servicesList": [
+    {
+      "title": "Turlar boýunça giň saýlaw",
+      "description": "Nusgawy syýahat üçin uçuşlary, transporty we turlary bronlamakda kömek"
+    },
+    {
+      "title": "Turlar boýunça giň saýlaw",
+      "description": "Nusgawy syýahat üçin uçuşlary, transporty we turlary bronlamakda kömek"
+    },
+    {
+      "title": "Turlar boýunça giň saýlaw",
+      "description": "Nusgawy syýahat üçin uçuşlary, transporty we turlary bronlamakda kömek"
+    },
+    {
+      "title": "Turlar boýunça giň saýlaw",
+      "description": "Nusgawy syýahat üçin uçuşlary, transporty we turlary bronlamakda kömek"
+    },
+    {
+      "title": "Turlar boýunça giň saýlaw",
+      "description": "Nusgawy syýahat üçin uçuşlary, transporty we turlary bronlamakda kömek"
+    },
+    {
+      "title": "Turlar boýunça giň saýlaw",
+      "description": "Nusgawy syýahat üçin uçuşlary, transporty we turlary bronlamakda kömek"
+    }
+  ],
+  "aboutThird": {
+    "title": "Näme üçin bizi saýlaýarlar?",
+    "description": "Türkmenistana syýahat gurnamak kyn bolup biler — biz ony aňsat, hakyky we ýatdan çykmajak edýäris. Tejribeli ýerli gidler, saýlanyp düzülýän ugurlar we başdan ahyra çenli doly goldaw bilen siz ygtybarly eldedirsiňiz.",
+    "local": {
+      "title": "Ýerli tejribe",
+      "text": "Biz Merkezi Aziýada ýerleşýäris we Türkmenistany içgin bilýän ýerli tejribeli gidler bilen işleýäris."
+    },
+    "hassle": {
+      "title": "Aladalanmaz syýahat",
+      "text": "Wiza goldawyndan, howa menzilinden alyp gidilmegine we saýlanyp alnan myhmanhanalara çenli — biz ähli jikme-jiklikleri öz üstümize alýarys, siz bolsa tejribäniň özünden lezzet alarsyňyz."
+    },
+    "unique": {
+      "title": "Üýtgeşik ugurlar",
+      "text": "Biziň turlar biziň turlar adaty ýerlerden has giň — meşhur ýerleri gizlin şaýlar we hakyky medeni tejribeler bilen utgaşdyrýarys."
+    },
+    "small": {
+      "title": "Kiçi toparly syýahat",
+      "text": "Ýoldaşyň bilen göwnüň suw içýän adamlaryň arasynda rahat syýahat et — adam köpüsi ýok, howlukma ýok, diňe manyly pursatlar."
+    }
+  },
+    "howToWork": "Nädip işleýär?",
+  "enjoyJourney": "Syýahatyň lezzetini alyň",
+  "tours": {
+    "MountainEscape": "Dag Serhetligi",
+    "DesertAdventure": "Çöl Maýy",
+    "ForestRetreat": "Orman Dynç alyşy",
+    "OceanBreeze": "Deňiz Yssylygy",
+    "CityExplorer": "Şäher Gözlegçisi",
+    "IslandHopping": "Oroslaryny Gezmek",
+    "SnowyPeaks": "Garly Daglar",
+    "CulturalTour": "Medeni Syýahat",
+    "JungleSafari": "Jungle Safari",
+    "LakeParadise1": "Jennet Kölü",
+    "LakeParadise2": "Saklanýan Köl",
+    "LakeParadise3": "Sähel Köl",
+    "LakeParadise4": "Şekil Köl",
+    "LakeParadise5": "Yşar Köl",
+    "LakeParadise6": "Ylalaşyk Köl",
+    "LakeParadise7": "Miras Köl",
+    "LakeParadise8": "Yssylyk Köl",
+    "LakeParadise9": "Bagt Köl",
+    "LakeParadise10": "Port Köl"
+  },
+   "contact1": {
+    "title": "Biziň bilen habarlaşyň",
+    "subtitle": "Islendik wagt habarlaşyp bilersiňiz. Biz tiz wagtda jogap bereris!",
+    "name": "Adyňyz",
+    "email": "Emailiňiz",
+    "message": "Habaryňyz",
+    "send": "Ugrat",
+    "info": "Maglumat",
+    "phone1": "+993-61-12-34-56",
+    "phone2": "+993-65-78-90-12",
+    "email1": "balkantours@gmail.com",
+    "email2": "contact@balkantours.com"
+  },
+   "how_to_work": "Nädip işleýär?",
+  "choose_tour": "Siziň syýahaty saýlaň",
+  "support": "Goldaw",
+  "support_text": "Wiza üçin kömek edip, syýahat barada ähli maglumatlary ibereris.",
+  "book_online": "Onlaýn bronlaň ýa-da habarlaşyň",
+  "enjoy": "Syýahatdan lezzet alyň",
+   "testimonials": {
+    "title": "“Ýatdan çykmajak syýahat! Marşrut taryh, medeniýet we başdan geçirmeler bilen ajaýyp sazlaşykly boldy. Darwaza krateriniň ýanyndaky gije aýratyn täsir galdyrdy. Gidleriň hemmesi örän tejribeli we kömekçidi.”",
+    "name": "— Jek Jo"
+   },
+  "book": {
+    "heading": "Syýahatyňyzy bellige almak isleýärsiňizmi?",
+    "contact": "Habarlaşmak maglumatlary",
+    "tour": "Syýahat maglumatlary",
+    "firstname": "Ady",
+    "lastname": "Familiýasy",
+    "citizenship": "Raýatlygy",
+    "nationality": "Milleti",
+    "email": "Email",
+    "phone": "Telefon (+kod)",
+    "date": "Sene",
+    "travelers": "Syýahatçylaryň sany",
+    "tourname": "Syýahatyň ady",
+    "comments": "Bellikler we goşmaça maglumat",
+    "button": "Sorag iber"
+  },
+  "exploreBlog": "Blogy gözden geçir",
+  "recomendation":"Bellik",
+  "introduction": "Türkmenistanyň dünýä syýahatçylyk kartasynda pes profiline garamazdan, Merkezi Aziýanyň iň täsin ýerleriniň biridir. Beýik taryhy mirasy, täsin häzirki zaman arhitekturasy we ajaýyp çölde ýerleşýän görnüşleri bilen, ol gyzykly we medeniýet söýüjiler üçin özboluşly tejribe hödürleýär. Türkmenistanyň näme üçin bu ýere gelmäge arzyjakdygy barada gürrüň edeliň.",
+
+  "darvaza": {
+    "heading": "Darwaza gaz krateri – çölde otly tebigy täsinlik",
+    "description": "“Jahanňamyň gapysy” diýlip atlandyrylýan Darwaza gaz krateri 1971-nji ýyldan bäri yanyp gelýär, şol wagty sovet geologlary metan gazynyň ýaýramagyny öňüni almak üçin ony ýakdylar. Kakaşum çölünde ýerleşýär, 60 metrdan giň we gijelerde ajaýyp ýagtylyk saçýar. Köp syýahatçylyk turlary onuň golaýynda gije kampirlemek mümkinçiligini berýär, şeýlelik bilen siziň bu tebigy ýangyn meýdanyny ýyldyzyň aşagynda görmek mümkinçilikleriňiz köp."
+  },
+
+  "ashgabat": {
+    "heading": "Aşgabat – mermer bilen örtülen paýtagt",
+    "description": "Türkmenistanyň paýtagty Aşgabat dünýäde iň köp ak mermerli bina bar şäher hökmünde Ginnesiň rekordlaryna girizildi. 1948-nji ýylda bolan güýçli ýer titremesinden soň täzeden gurulan Aşgabat, alty gatly giň we boş köçeler, altyn tomly monumentler we ýokary tehnologiýaly çeşmeler bilen ajaýyp şäheriň nusgasydyr. Bu şäher post-sowet şäher gurluşygy we milli kimlik üçin täsin mysaldyr."
+  },
+
+  "silk_road": {
+    "heading": "Gadymy medeniýetler we Ýüpek ýoly mirasy",
+    "description": "Türkmenistanda Ýüpek ýolunyň döwründen galan birnäçe möhüm arheologik ýer bar.",
+    "sites": {
+      "merv": "Märi, BMG-niň Bütindünýä mirasy hasabatynda bellenilen ýer bolup, XII asyrda dünýäniň iň uly şäherleriniň biri boldy.",
+      "nisa": "Nisa, Parfi imperiýasynyň gadymy paýtagty, Yslymdan öňki Merkezi Aziýa barada maglumat berýär.",
+      "konye_urgench": "Günorta Türkmenistanda Horezm döwrüniň täsirini görkezýän täsin aramgähler we minaralar bar."
+    },
+    "closing": "Bu ýerler zoroastrizmden we buddizmdan yslam dinine çenli köp medeni täsirleri açyp görkezýär we bu sebit üçin çuň taryhy kontekst döredýär."
+  },
+  "book5": {
+    "heading": "Syýahatyňyzy Bellige Alň",
+    "button": "Bellige Al"
+  },
+  "contact5": "Habarlaşmak üçin maglumat",
+  "firstname": "Ady (mysal: Gurbanmyrat)",
+  "lastname": "Familiýasy (mysal: Baýramdurdyýew)",
+  "citizenship": "Raýatlygy",
+  "nationality": "Milleti",
+  "email": "E-poçta salgy",
+  "phone": "Telefon belgisi",
+  "tour5": "Syýahat Maglumatlary",
+  "travelers": "Syýahatçylaryň sany",
+  "tourname": "Syýahat Ady (mysal: Güniň Ýalňyzlygy)",
+  "comments": "Goşmaça bellikler",
+  "title5": {
+    "mr": "Jenap",
+    "miss": "Zenan"
+},
+  "sortBy": "Tertiple:",
+  "popularity": "Meşhurlyk",
+  "veryLow": "Arzan",
+  "veryHigh": "Gymmat",
+  "searchPlaceholder": "Ady boýunça gözleg",
+  "priceText": "Bahasy:",
+  "welcome1": {
+    "subtitle": "Merkezi Aziýanyň iň meşhur ýerlerini açyň.",
+    "title": "Meşhur ugurlar",
+    "description": "Köne şäherlerden gözel tebigata çenli — taryh, medeniýet we gözellik bilen doly ýatdan çykmajak ýerleri açyň.",
+    "button": "Ugruň hemmesini öwren"
+},
+  "gallery": {
+    "title": "GALEREÝA",
+    "description": "Syýahatlarymyzyň ýatdan çykmajak pursatlaryna göz aýlaň. Täsin tebigat, baý medeniýet we bagtly syýahatçylar — indiki syýahatyňyzda sizi nämeler garaşýandygyny görüň."
+},
+  "why": {
+    "title": "Näme üçin biz?",
+    "description": "Biz diňe bir syýahat guramaýarys — biz täsir döredýäris. Biziň toparymyz Türkmenistanyň we Merkezi Aziýanyň her burçuny tanaýar we marsrutlary doly üns bilen düzýär.",
+    "teamTitle": "Tejribeli topar",
+    "teamDescription": "1998-nji ýyldan bäri Merkezi Aziýanyň syýahatçylyk pudagynda.",
+    "routeTitle": "Şahsylaşdyrylan ugurlar",
+    "routeDescription": "Syýahatlary siziň gyzyklanmalaryňyza we ritmiňize görä sazlaýarys."
+  },
+  "blog1": {
+    "title": "SYÝAHAT BLOGY",
+    "subtitle": "Syýahatlarymyzyň ýatdan çykmajak pursatlaryna göz aýlaň. Ajaýyp tebigat, baý medeniýet we bagtly syýahatçylar — indiki gezelençde sizi nämäniň garaşýandygyny görüň.",
+    "learnMore": "GIŇIŞLEÝIN ÖWREN",
+    "more": "KÖPRÄK",
+    "cardMain": {
+      "title": "Aşgabatdaky iň gowy 5 ýer",
+      "text": "Türkmenistanyň paýtagtynda nämeleri görmek gerek? Binagärlik, muzeýler, seýilgähler we gyzykly künjekler — Aşgabat üçin gollanma kitapçamyza göz aýlaň.",
+      "alt": "Uly surat"
+    },
+    "card": {
+      "title": "Aşgabatdaky iň gowy 5 ýer",
+      "text": "Türkmenistanyň paýtagtynda nämeleri görmek gerek? Binagärlik, muzeýler, seýilgähler we gyzykly künjekler — Aşgabat üçin gollanma kitapçamyza göz aýlaň.",
+      "alt": "Surat"
+    }
+},
+  "tourTitle": "Türkmenistanyň gizlin hazinalaryna syýahatlar",
+  "tourDescription": "Ýodadan çykyp, Merkezi Aziýanyň ýüregine çümüň. Her syýahat sizi hakyky we unudylmajak tejribe bilen üpjün etmek üçin döredildi.",
+  "blogTitle": "Syýahat wakalary we içerki maslahatlar",
+  "blogDescription": "Geliň, gyzykly wakalary, ýol görkezmeleri we peýdaly maslahatlary öwreniň. Türkmenistandaky az tanalýan ýerlerden başlap, medeni aýratynlyklara we amaly maglumatlara çenli — biziň blogymyz dünýäni size ýakynlaşdyrýar.",
+  "insiderStories": {
+    "title": "Syýahatçylyk hekaýalary we içerki maslahatlar",
+    "description": "Indiki syýahatyňyza ylham berjek gyzykly hekaýalary, gollanmalary we peýdaly maslahatlary açyň. Türkmenistanyň bilinmeýän ýerlerinden başlap medeni aýratynlyklara we amaly maglumatlara çenli — biziň blogymyz dünýäni size ýakynlaşdyrýar, hekaýa-hekaýa."
+},
+  "about1": {
+    "title": "Türkmenistany biziň bilen öwreniň",
+    "description": "Biz diňe syýahatlary däl, eýsem täsirli wakalary hem hödürleýäris. Biziň toparymyz — ýurduň hakyky ruhuny görkezýän ýerli hünärmenler: gadymy şäherlerden başlap gözel çöllere we däp-dessurlara çenli. Syýahatyňyz rahat, baý manyly we hakykatdanam ýatdan çykmajak bolmagy üçin her bir detala üns berýäris."
+  },
+  "services": {
+    "title": "Biziň hyzmatlarymyz",
+    "description": "Biz Türkmenistanda syýahatlary gurnaýarka giňişleýin çemeleşmäni hödürleýäris. Syýahaty meýilleşdirmekden başlap öýe dolanyp gelýänçäňiz çenli — biz ähli etapda size ýoldaş bolýarys.",
+    "cards": [
+      {
+        "icon": "/tr1.svg",
+        "title": "Turlar boýunça hyzmat",
+        "text": "Gyzykly ugurlar boýunça şahsy we toparlaýyn gezelençler."
+      },
+      {
+        "icon": "/tr2.svg",
+        "title": "Ýaşaýyş jaýlary",
+        "text": "Myhmanhanalar, myhman öýleri we ýurtalar — islendik isleg üçin amatlyk."
+      },
+      {
+        "icon": "/tr3.svg",
+        "title": "Ulag hyzmaty",
+        "text": "Ýurt boýunça tejribeli sürüjiler bilen amatly ulag."
+      },
+      {
+        "icon": "/tr4.svg",
+        "title": "Gid hyzmatlary",
+        "text": "Faktlardan has köp zatlary aýdyp berýän hünärmen gidler."
+      },
+      {
+        "icon": "/tr5.svg",
+        "title": "Wiza goldawy",
+        "text": "Ýurda girmegi tertiplemek boýunça maslahat we kömek."
+      },
+      {
+        "icon": "/tr6.svg",
+        "title": "Terjimeçi",
+        "text": "Takyk, çalt we dürs terçime etmek."
+      }
+    ]
+  },
+ "aboutThird1": {
+    "title": "Ähli zat ýatdan çykmajak syýahat üçin ",
+    "description": "Biz Türkmenistany aňsat, gyzykly we aladasyz öwrenmegiňiz üçin ähli syýahat hyzmatlaryny hödürleýäris. Siziň intensiw gezelenç ýa-da dynç alyş meýilnamalaryňyzdan garaşsyzlykda, biz ähli zady — ugurlary, ýerleşişi we hyzmaty üpjün ederis."
+  },
+  "whyChooseUsTitle": "Näme üçin biziň hyzmatlarymyz?",
+  "whyChooseUsDescription": "Türkmenistana syýahat meýilleşdirmek kyn bolup biler — biz ony aňsat, hakyky we ýatdan çykmajak edýäris.",
+  "features": [
+    {
+      "title": "Ýerli hünärmenler",
+      "description": "Biz Merkezi Aziýada ýerleşýäris we Türkmenistany doly tanaýan tejribeli ýerli gollanmaçylar bilen işleýäris.",
+      "image": "/talent.png"
+    },
+    {
+      "title": "Aladasyz syýahat",
+      "description": "Wiza goldawy we transportdan başlap, ýerleşmäge çenli ähli jikme-jiklikleri biz öz üstümize alýarys.",
+      "image": "/flight.png"
+    },
+    {
+      "title": "Aýratyn ugurlar",
+      "description": "Biziň gezelençlerimiz adaty ýerlerden çykýar — meşhur ýerleri gizlin künjekler we medeni tejribeler bilen birleşdirýäris.",
+      "image": "/place.png"
+    },
+    {
+      "title": "Kiçi topar tejribesi",
+      "description": "Köpçülige goşulmazdan, rahat we ýatdan çykmajak pursatlar bilen syýahat ediň.",
+      "image": "/head.png"
+    }
+  ],
+  "tourFireTitle": "5 Sebäp näme üçin hökmany suratda Türkmenistany saýlamaly",
+  "tourFireDate": "08.04.2025",
+  "prepareTitle": "Syýahatyňyza taýýar boluň",
+  "prepareDesc": "Türkmenistana syýahat etmezden öň bilmelisiňiz ähli zat — wiza nädip almaly, nirede ýaşamaly we nämelere üns bermeli. Biz möhüm maglumatlary ýygnadyk, ähli ädimde özüňizi ynamly duýmagy üçin.",
+  "visaBtn": "Wiza nädip almaly",
+  "hotelsBtn": "Myhmanhanalar",
+   "visaGuide": "Türkmenistana wiza nädip almaly: ädimme-ädim gollanma",
+   "description":"Türkmenistana baryp görmek üçin daşary ýurt raýatlarynyň köpüsine syýahat wizasyny almak zerurdyr. Biz size wiza almak üçin hökman gerekli çakylyk hatyny (LOI) taýýarlamaga kömek ederis. Çakylyk hatyny alanyňyzdan soň, iň ýakyn konsullyga ýüz tutup ýa-da Aşgabat howa menzilinde wiza alyp bilersiňiz. Biz her ädimde siziň bilen bile bolarys we prosesi aňsat we tizleşdireris",
+  "trustedHotels": {
+    "heading": "Rahatlyk, oňaýlylyk we ygtybarlylyk — ynanýan myhmanhanalarymyz"
+  },
+  "readyAdventureTitle": "Basdan geçirmelere taýynmy? Biz sizi eýýäm garaşýarys!",
+  "readyAdventureText": "Türkmenistanyň öwrenilmedik künjekleri boýunça syýahatyňyza başlamak üçin toparymyz bilen habarlaşyň. Sorag bermekçimi? Syýahat bilen baglanyşykly jikme-jiklikleri maslahatlaşmakçymy? Ruhlanmak isleýärsiňizmi? Biz ýanyňyzda — ýazyp bilersiňiz, jaň edip bilersiňiz ýa-da myhmançylyga gelip bilersiňiz!",
+   "surname":"Familiýa",
+     "sort": {
+    "date": "Senesi boýunça",
+    "oldToNew": "Köneden täzä",
+    "newToOld": "Täzeden köne"
+  }
+
+}
