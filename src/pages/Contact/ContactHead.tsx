@@ -162,7 +162,7 @@ const ContactHead = () => {
           name="message"
           placeholder={t("contact1.message") || "Ваше сообщение"}
           required
-          className="w-full border border-[#848484] bg-white rounded-lg px-1 py-10 focus:outline-none focus:border-[#336B7B] transition"
+          className="w-full h-64 text-start border border-[#848484] bg-white rounded-lg px-1 py-2 focus:outline-none focus:border-[#336B7B] transition"
         />
 
       <div className="flex items-center justify-center">

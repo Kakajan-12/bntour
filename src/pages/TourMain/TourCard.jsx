@@ -28,11 +28,9 @@ const BlogThird = () => {
 const [maxInput, setMaxInput] = useState(0);
   //------------filter
   const [filter,setFilter] = useState(false)
-  const [location,seLocation] = useState(null)
   const [selectedType, setSelectedType] = useState(null);
 const [duration, setDuration] = useState([]);
 
-// При загрузке данных определяем диапазон цен
 useEffect(() => {
   if (tourData.length > 0) {
     const prices = tourData.map((tour) => tour.price);
@@ -41,13 +39,24 @@ useEffect(() => {
 
     setMinPrice(min);
     setMaxPrice(max);
-
     setMinInput(min);
     setMaxInput(max);
 
-    setData(tourData); // показываем все по умолчанию
+    setData(tourData); // по умолчанию показываем всё
   }
 }, [tourData]);
+
+useEffect(() => {
+  if (tourData.length > 0) {
+    const filtered = tourData.filter(
+      (tour) => tour.price >= minInput && tour.price <= maxInput
+    );
+    setData(filtered);
+    setCurrentPage(1); // сброс пагинации
+  }
+}, [minInput, maxInput, tourData]);
+
+
 
 if (errorTour) return <p>Ошибка загрузки данных</p>;
 if (loadingTour) return <MyLoader />;
@@ -257,9 +266,9 @@ const handleSearch = (e) => {
   ))}
 </div>
 
-    <p className="font-semibold">Цена</p>
-    <div className="flex gap-2 mb-4">
-         <input
+   <p className="font-semibold">Цена</p>
+<div className="flex gap-2 mb-4">
+  <input
     type="number"
     value={minInput}
     min={minPrice}
@@ -277,7 +286,9 @@ const handleSearch = (e) => {
     placeholder="max"
     className="border p-2 w-1/2 rounded"
   />
-    </div>
+</div>
+
+{/* Ползунок для максимальной цены */}
 <input
   type="range"
   min={minPrice}
@@ -286,6 +297,7 @@ const handleSearch = (e) => {
   onChange={(e) => setMaxInput(Number(e.target.value))}
   className="mb-6 range-red"
 />
+
  <div className="flex justify-center">
 </div>
   </div>

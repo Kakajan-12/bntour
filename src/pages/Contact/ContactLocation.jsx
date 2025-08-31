@@ -1,9 +1,7 @@
 import { useState, useEffect } from "react";
-import { useTranslation } from "react-i18next";
 import i18n from "../../i18n";
 
 const ContactLocation = () => {
-  const { t } = useTranslation();
   const [data, setData] = useState([]); // сгруппированные данные
   const [activeIndex, setActiveIndex] = useState(0);
   const [loading, setLoading] = useState(true);
