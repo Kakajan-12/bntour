@@ -14,7 +14,7 @@ const ContactHead = () => {
     captchaText: "",
   });
 
-  const dataApi = import.meta.env.VITE_IMG_URL;
+  const dataApi = import.meta.env.VITE_API_URL;
   const [captchaImage, setCaptchaImage] = useState("");
   const [sending, setSending] = useState(false);
   const [success, setSuccess] = useState<string | null>(null);

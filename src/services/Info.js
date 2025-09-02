@@ -7,37 +7,37 @@ export const dataApi = createApi({
   }),
   endpoints: (builder) => ({
     getTour: builder.query({
-      query: () => 'tours',
+      query: () => 'api/tours',
     }),
       getTourTypes: builder.query({
-      query: () => 'tour-types',
+      query: () => 'api/tour-types',
     }),
       getSlider: builder.query({
-      query: () => 'sliders',
+      query: () => 'api/sliders',
     }),
       getBlog: builder.query({
-      query: () => 'blogs',
+      query: () => 'api/blogs',
     }),
       getBlogGallery: builder.query({
-      query: () => 'blog-gallery',
+      query: () => 'api/blog-gallery',
     }),
       getContactAdress: builder.query({
-      query: () => 'contact-address',
+      query: () => 'api/contact-address',
     }),
       getTourLocation: builder.query({
-      query: () => 'tour-location',
+      query: () => 'api/tour-location',
     }),
       getTourGallery: builder.query({
-      query: () => 'tour-gallery',
+      query: () => 'api/tour-gallery',
     }),
       getTourItinerary: builder.query({
-      query: () => 'itinerary',
+      query: () => 'api/itinerary',
     }),
       getTourIncludes: builder.query({
-      query: () => 'includes',
+      query: () => 'api/includes',
     }),
       getTourExcludes: builder.query({
-      query: () => 'excludes',
+      query: () => 'api/excludes',
     }),
   }),
 });

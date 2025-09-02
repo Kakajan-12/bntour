@@ -18,7 +18,7 @@ const PerInfoThird = () => {
   useEffect(() => {
     const fetchAssets = async () => {
       try {
-        const res = await fetch(`${import.meta.env.VITE_BN_URL}hotel-assets`);
+        const res = await fetch(`${import.meta.env.VITE_API_URL}api/hotel-assets`);
         const data = await res.json();
         if (Array.isArray(data)) setAssets(data);
       } catch (err) {

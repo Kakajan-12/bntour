@@ -19,22 +19,22 @@ const BottomFooter = () => {
     const fetchContacts = async () => {
       try {
         // Адреса
-        const resAddr = await fetch(`${import.meta.env.VITE_API_URL}contact-address`);
+        const resAddr = await fetch(`${import.meta.env.VITE_API_URL}api/contact-address`);
         const addrData = await resAddr.json();
         if (Array.isArray(addrData)) setAddresses(addrData);
 
         // Email
-        const resMail = await fetch(`${import.meta.env.VITE_API_URL}contact-mails`);
+        const resMail = await fetch(`${import.meta.env.VITE_API_URL}api/contact-mails`);
         const mailData = await resMail.json();
         if (mailData.length > 0) setEmail(mailData[0].mail);
 
         // Телефоны
-        const resPhone = await fetch(`${import.meta.env.VITE_API_URL}contact-numbers`);
+        const resPhone = await fetch(`${import.meta.env.VITE_API_URL}api/contact-numbers`);
         const phoneData = await resPhone.json();
         if (Array.isArray(phoneData)) setPhones(phoneData);
 
         // Мессенджеры
-        const resMess = await fetch(`${import.meta.env.VITE_API_URL}links`);
+        const resMess = await fetch(`${import.meta.env.VITE_API_URL}api/links`);
         const messData = await resMess.json();
         if (Array.isArray(messData)) setMessengers(messData);
       } catch (err) {

@@ -18,10 +18,10 @@ const ContactLocation = () => {
       const baseUrl = import.meta.env.VITE_API_URL;
 
       const [locationsRes, addressesRes, numbersRes, mailsRes] = await Promise.all([
-        fetch(`${baseUrl}contact-location`).catch(() => ({ json: async () => [] })),
-        fetch(`${baseUrl}contact-address`).catch(() => ({ json: async () => [] })),
-        fetch(`${baseUrl}contact-numbers`).catch(() => ({ json: async () => [] })),
-        fetch(`${baseUrl}contact-mails`).catch(() => ({ json: async () => [] })),
+        fetch(`${baseUrl}api/contact-location`).catch(() => ({ json: async () => [] })),
+        fetch(`${baseUrl}api/contact-address`).catch(() => ({ json: async () => [] })),
+        fetch(`${baseUrl}api/contact-numbers`).catch(() => ({ json: async () => [] })),
+        fetch(`${baseUrl}api/contact-mails`).catch(() => ({ json: async () => [] })),
       ]);
 
       const locations = (await locationsRes.json()) || [];

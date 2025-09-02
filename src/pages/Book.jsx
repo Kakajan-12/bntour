@@ -33,7 +33,7 @@ const Book = () => {
   // Загрузка CAPTCHA
   const loadCaptcha = async () => {
     try {
-      const res = await fetch(`${import.meta.env.VITE_IMG_URL}captcha`, {
+      const res = await fetch(`${import.meta.env.VITE_API_URL}captcha`, {
          method: "GET",
                 credentials: "include",
       });
@@ -60,7 +60,7 @@ const Book = () => {
     setCaptchaError(null);
 
     try {
-      const res = await fetch(`${import.meta.env.VITE_IMG_URL}send-tour`, {
+      const res = await fetch(`${import.meta.env.VITE_API_URL}send-tour`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

@@ -40,7 +40,7 @@ const TourFourth = () => {
         {images.map((item, index) => (
           <img
             key={index}
-            src={`${import.meta.env.VITE_IMG_URL}${item.image}`}
+            src={`${import.meta.env.VITE_API_URL}${item.image}`}
             alt={`gallery-${index}`}
             className="rounded-lg w-1/2 lg:w-full h-auto object-cover"
           />

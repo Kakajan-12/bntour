@@ -2,19 +2,19 @@ import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
 
 export const bnTourApi = createApi({
   reducerPath: 'bnTourApi',
-  baseQuery: fetchBaseQuery({ baseUrl: import.meta.env.VITE_BN_URL }),
+  baseQuery: fetchBaseQuery({ baseUrl: import.meta.env.VITE_API_URL }),
   endpoints: (builder) => ({
     getVideo: builder.query({
-      query: () => 'video',
+      query: () => 'api/video',
     }),
     getHotels: builder.query({
-      query: () => 'hotels',
+      query: () => 'api/hotels',
     }),
     getHotelGallery: builder.query({
-      query: () => 'hotel-gallery',
+      query: () => 'api/hotel-gallery',
     }),
     getVisa: builder.query({
-      query: () => 'visa',
+      query: () => 'api/visa',
     }),
   }),
 });
