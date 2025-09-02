@@ -397,5 +397,6 @@
     "duration": "Duration",
     "language": "Languages",
     "type": "Tour type"
-  }
+  },
+  "view":"View"
 }

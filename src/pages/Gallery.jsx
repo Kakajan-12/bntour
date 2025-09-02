@@ -1,6 +1,8 @@
 import { useTranslation } from 'react-i18next';
 import MainGrid from './MainGrid';
 import { motion } from "framer-motion";
+import { Box, CircularProgress } from '@mui/material';
+import { useGetVideoQuery } from '../services/BnTour';
 
 const fadeInUp = {
   hidden: { opacity: 0, y: 40 },
@@ -16,7 +18,22 @@ const fadeInUp = {
 };
 
 const MainThird = () => {
+  const {data, isLoading, error} = useGetVideoQuery()
   const {t} = useTranslation()
+  
+
+      if (isLoading)  return (
+          <Box className="flex justify-center items-center h-screen w-full">
+            <CircularProgress size={60} thickness={4} />
+          </Box>
+        );
+         if (!data) {
+    return;
+  }
+    if (error) return <div>Error loading data</div>;
+    console.log();
+    
+
   
   return (
     <div className="flex flex-col items-center px-6 py-16">
@@ -59,20 +76,21 @@ const MainThird = () => {
          {t('gallery.description')}
       </motion.p>
 
-      {/* Видео */}
-      <motion.video
-        className="w-full max-w-5xl m-10 rounded-xl shadow-lg object-cover"
-        src="/bl.mp4"
-        autoPlay
-        muted
-        playsInline
-        loop
-        variants={fadeInUp}
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true }}
-        custom={4}
-      />
+     {/* Видео */}
+{data && data.length > 0 ? (
+  data.map((item, index) => (
+    <motion.video
+      key={index}
+      className="w-full max-w-5xl m-10 rounded-xl object-cover"
+      src={`${item.video.replace(/\\/g, '/')}`}
+      autoPlay
+      muted
+      playsInline
+      loop
+    />
+  ))
+) : null}
+
 
       {/* Grid */}
       <MainGrid />

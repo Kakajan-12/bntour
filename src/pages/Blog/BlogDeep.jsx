@@ -30,7 +30,6 @@ const BlogDeep = () => {
   }
     if (error) return <div>Error loading data</div>
   
-  
  // Собираем все картинки для текущего блога
 const images = data?.filter((item) => item.blog_id === Number(params.id)) || [];
 

@@ -1,42 +1,40 @@
-import { useState } from "react";
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
+import { useState } from "react";
+import { ChevronUpIcon, ChevronDownIcon } from "@heroicons/react/24/solid";
+import { useParams } from "react-router";
+import i18n from "../../i18n";
+import { Box, CircularProgress } from "@mui/material";
+import { useGetHotelsQuery, useGetVideoQuery } from "../../services/BnTour";
 
 const InformationMain = () => {
   const [isActive, setIsActive] = useState(true);
+  const { data, error, isLoading } = useGetVideoQuery()
+  const { data:hotel, error:err, isLoading:load } = useGetHotelsQuery();
   const [active, setActive] = useState(false);
-  const {t} = useTranslation()
-
-  const data = [
-    {
-      title: "Спорт Отель",
-      location: "Ашхабад",
-      info: "Комфорт и активность в центре Ашхабада",
-      desc: "Современный отель в центре Ашхабада для активного и комфортного отдыха.",
-      view:'Просмотреть'
-    },
-    {
-      title: "Спорт Отель",
-      location: "Ашхабад",
-      info: "Комфорт и активность в центре Ашхабада",
-      desc: "Современный отель в центре Ашхабада для активного и комфортного отдыха.",
-      view:'Просмотреть'
-    },
-    {
-      title: "Спорт Отель",
-      location: "Ашхабад",
-      info: "Комфорт и активность в центре Ашхабада",
-      desc: "Современный отель в центре Ашхабада для активного и комфортного отдыха.",
-      view:'Просмотреть'
-    },
-    {
-      title: "Спорт Отель",
-      location: "Ашхабад",
-      info: "Комфорт и активность в центре Ашхабада",
-      desc: "Современный отель в центре Ашхабада для активного и комфортного отдыха.",
-      view:'Просмотреть'
-    },
-  ];
+   
+    const { t } = useTranslation();
+    const [openIndex, setOpenIndex] = useState(null);
+    const params = useParams();
+  
+    if (isLoading)  return (
+          <Box className="flex justify-center items-center h-screen w-full">
+            <CircularProgress size={60} thickness={4} />
+          </Box>
+        );
+    if (error) return <div>Error loading data</div>;
+    console.log(hotel);
+    
+  
+    const lang = i18n.language;
+  
+    const stripHTML = (text) => text?.replace(/<[^>]*>/g, "") || "";
+  
+   
+  
+    const toggle = (index) => {
+      setOpenIndex(index === openIndex ? null : index);
+    };
 
   return (
     <div>
@@ -74,20 +72,52 @@ const InformationMain = () => {
         </div>
 
         {isActive && (
-          <motion.div
-            className="border-[#848484] border rounded p-10 space-y-4 flex flex-col items-center justify-center"
-            initial={{ opacity: 0, y: 40 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5 }}
+  <motion.div
+    className="border-[#848484] border rounded p-3 space-y-4 flex flex-col items-center justify-center"
+    initial={{ opacity: 0, y: 40 }}
+    animate={{ opacity: 1, y: 0 }}
+    transition={{ duration: 0.5 }}
+  >
+    {data.map((item, index) => {
+      const title = stripHTML(
+        item[`title_${lang === "rus" ? "ru" : lang === "tkm" ? "tk" : "en"}`]
+      );
+      const text = stripHTML(
+        item[`text_${lang === "rus" ? "ru" : lang === "tkm" ? "tk" : "en"}`]
+      );
+
+      return (
+        <div key={index} className="rounded-md mb-4 w-full">
+          <button
+            className="w-full flex relative items-center justify-between text-left px-4 py-3 font-semibold"
+            onClick={() => toggle(index)}
           >
-            <h2 className="text-xl xl:text-3xl text-center font-semibold">
-              {t('visaGuide')}
-            </h2>
-            <p className="text-gray-700 xl:text-lg text-start lg:max-w-4xl">
-              {t('description')}
-            </p>
-          </motion.div>
-        )}
+            <div className="flex flex-col gap-2">
+              <span className="text-xl sm:text-base md:text-2xl">{title}</span>
+              <div
+                className={`sm:w-150 ${openIndex === index ? "bg-[#4B666C]" : ""} h-px`}
+              ></div>
+            </div>
+            {openIndex === index ? (
+              <ChevronUpIcon className="w-5 h-10 hidden sm:block text-gray-700 transition duration-500" />
+            ) : (
+              <ChevronDownIcon className="w-5 h-5 hidden sm:block text-gray-700" />
+            )}
+          </button>
+
+          <div
+            className={`transition-all duration-700 ease-in-out px-4 text-sm sm:text-base lg:text-lg text-gray-800 overflow-hidden ${
+              openIndex === index ? "max-h-[500px]" : "max-h-0"
+            }`}
+          >
+            {text}
+          </div>
+        </div>
+      );
+    })}
+  </motion.div>
+)}
+
       </div>
 
       {active && (
@@ -101,7 +131,17 @@ const InformationMain = () => {
               {t("trustedHotels.heading")}
           </h2>
 
-          {data.map((data, index) => (
+          {hotel.map((data, index) => {
+        const title = stripHTML(
+        data[`title_${lang === "rus" ? "ru" : lang === "tkm" ? "tk" : "en"}`]
+      );
+      const text = stripHTML(
+        data[`text_${lang === "rus" ? "ru" : lang === "tkm" ? "tk" : "en"}`]
+      );
+      const location = stripHTML(
+        data[`location_${lang === "rus" ? "ru" : lang === "tkm" ? "tk" : "en"}`]
+      );
+      return(
             <motion.div
               key={index}
               className="flex flex-row border max-w-4xl mx-auto overflow-hidden  rounded-2xl lg:rounded bg-white"
@@ -109,9 +149,9 @@ const InformationMain = () => {
               animate={{ opacity: 1, x: 0 }}
               transition={{ delay: index * 0.2, duration: 0.5 }} 
             >
-              <a href="perInfo" className=" ">
+              <a href={`/perInfo/${data.id}`}>
               <img
-                src="cafe.png"
+               src={data.image.replace(/\\/g, '/')}
                 alt={data.title}
                 className=" h-75 object-cover rounded"
               />
@@ -119,21 +159,21 @@ const InformationMain = () => {
               
               <div className="p-4 space-y-5">
                 <div>
-                  <p className="text-2xl text-[#A40000] font-bold">{data.title}</p>
-                  <p>{data.location}</p>
+                  <p className="text-2xl text-[#A40000] font-bold">{title}</p>
+                  <p>{location}</p>
                 </div>
                 <div>
-                  <p className="lg:text-2xl font-bold">{data.info}</p>
-                  <p className="lg:text-md">{data.desc}</p>
+                  <p className="lg:text-2xl">{text}</p>
                 </div>
-                <a href="/perInfo">
+                <a href={`/perInfo/${data.id}`}>
                 <div className="text-xl flex items-end gap-2 text-[#A40000] justify-end">
-                  <p className="lg:text-xl ">{data.view}</p>
+                  <p className="lg:text-xl ">{t('view')}</p>
                   <img src="/r.svg" alt="img" />
                 </div></a>
               </div>
             </motion.div>
-          ))}
+           )
+           })}
         </motion.div>
       )}
     </div>
